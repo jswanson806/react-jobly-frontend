@@ -1,0 +1,26 @@
+.Company-detail {
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px;
+    padding-top: 0;
+    background-color: #F5E7E1;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .Company-detail .Job-title {
+    padding-top: 10px;
+  }
+  
+  .Company-detail-title {
+    text-align: center;
+    font-size: 3rem;
+    color: #618985;
+  }
+
+  .Company-detail .Job-apply-button {
+    margin-left: 80%;
+  }
+
+

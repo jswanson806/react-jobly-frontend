@@ -1,0 +1,28 @@
+.Home-content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 600px;
+    padding: 40px;
+    padding-top: 0;
+    background-color: #F5E7E1;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    font-family: 'Raleway', sans-serif;
+    align-items: center;
+    justify-content: center;
+}
+
+.Home-title {
+    align-self: center;
+    color: #618985;
+}
+
+.Home-text {
+    align-self: center;
+}
+
+.Home-greeting {
+    align-self: center;
+    color: #618985;
+}

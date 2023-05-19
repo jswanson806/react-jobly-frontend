@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JobCard smoke and snapshot should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Job-card"
+    data-testid="Job-card-9999"
+  >
+    <div
+      class="Job-heading"
+    >
+      <h4
+        class="Job-title"
+        data-testid="Job-title"
+      >
+        Test Job Title 1
+      </h4>
+    </div>
+    <li
+      class="Job-salary"
+      data-testid="Job-salary"
+    >
+      Salary: 123456
+    </li>
+    <li
+      class="Job-equity"
+      data-testid="Job-equity"
+    >
+      Equity: 0.5
+    </li>
+    <button
+      class="Job-apply-button Job-apply-button--deactivated"
+      data-testid="Job-apply-button-deactive"
+      disabled=""
+    >
+      Apply
+    </button>
+  </div>
+</DocumentFragment>
+`;

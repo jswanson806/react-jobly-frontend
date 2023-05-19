@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar smoke and snapshot should match the snapshot 1`] = `
+<DocumentFragment>
+  <nav
+    class="navbar navbar navbar-expand-md"
+    data-testid="Navbar"
+  >
+    <div
+      class="container-fluid"
+    >
+      <a
+        aria-current="page"
+        class="navbar-brand active"
+        data-testid="brand-link"
+        href="/"
+      >
+        Jobly
+      </a>
+      <ul
+        class="navbar-nav nav"
+      >
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="companies-link"
+            href="/companies"
+          >
+            Companies
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="jobs-link"
+            href="/jobs"
+          >
+            Jobs
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <a
+            class="nav-link"
+            data-testid="profile-link"
+            href="/profile"
+          >
+            Profile
+          </a>
+        </li>
+        <li
+          class="nav-item"
+        >
+          <button
+            class="nav-link-button"
+            data-testid="logout-button"
+          >
+            Logout testuser
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</DocumentFragment>
+`;

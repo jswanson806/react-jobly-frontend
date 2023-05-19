@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`routes should match snapshot 1`] = `
+<DocumentFragment>
+  <main
+    data-testid="routes"
+  >
+    <div
+      class="Home-content"
+      data-testid="Home-content"
+    >
+      <h1
+        class="Home-title"
+      >
+        Jobly
+      </h1>
+      <p
+        class="Home-text"
+      >
+        All the jobs in one, convenient place.
+      </p>
+      <h2
+        class="Home-greeting"
+        data-testid="Home-greeting-message"
+      >
+        Welcome Back, testuser!
+      </h2>
+    </div>
+  </main>
+</DocumentFragment>
+`;

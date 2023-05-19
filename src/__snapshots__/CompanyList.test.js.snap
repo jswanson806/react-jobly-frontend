@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CompanyList smoke and snapshot should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="Company-list"
+    data-testid="Company-list"
+  >
+    <div
+      class="Company-list-title"
+      data-testid="Company-list-title"
+    >
+      <h1
+        class="Company-list-heading"
+        data-testid="Company-list-heading"
+      >
+        Companies
+      </h1>
+    </div>
+    <div
+      data-testid="Company-list-search"
+    >
+      <form
+        class="Company-list-search-form"
+        data-testid="Company-list-search-form"
+      >
+        <label
+          class="Company-list-search-label"
+          for="compSearch"
+        >
+          Search
+        </label>
+        <input
+          class="Company-list-search-input"
+          data-testid="Company-list-search-input"
+          id="compSearch"
+          name="name"
+          type="text"
+          value=""
+        />
+        <button
+          class="Company-list-search-button"
+          data-testid="Company-list-search-button"
+          type="submit"
+        >
+          Search
+        </button>
+      </form>
+    </div>
+    <div
+      class="Company-list-cards"
+    >
+      <a
+        data-testid="company-link-test-company-1"
+        href="/companies/test-company-1"
+      >
+        <div
+          class="Company-card"
+          data-testid="Company-card"
+        >
+          <div
+            class="Company-heading"
+            data-testid="Company-heading"
+          >
+            <h4
+              class="Company-title"
+              data-testid="Company-title"
+            >
+              Test Company 1
+            </h4>
+          </div>
+          <div
+            class="Company-description"
+            data-testid="Company-description"
+          >
+            Test description for Test Company 1
+          </div>
+        </div>
+      </a>
+    </div>
+    <div
+      class="Company-list-cards"
+    >
+      <a
+        data-testid="company-link-test-company-2"
+        href="/companies/test-company-2"
+      >
+        <div
+          class="Company-card"
+          data-testid="Company-card"
+        >
+          <div
+            class="Company-heading"
+            data-testid="Company-heading"
+          >
+            <h4
+              class="Company-title"
+              data-testid="Company-title"
+            >
+              Test Company 2
+            </h4>
+          </div>
+          <div
+            class="Company-description"
+            data-testid="Company-description"
+          >
+            Test description for Test Company 2
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;

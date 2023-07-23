@@ -1,10 +1,10 @@
 import React from 'react';
 import { MemoryRouter} from 'react-router-dom';
 import { act, render, waitFor, screen, fireEvent} from '@testing-library/react';
-import JobsList from './JobsList.js';
-import {UserContext} from './helpers/UserContext.js';
+import JobsList from '../JobsList.js';
+import {UserContext} from '../helpers/UserContext.js';
 import '@testing-library/jest-dom'
-import JoblyApi from './api';
+import JoblyApi from '../api.js';
 
 const user = {
     username: "testuser",

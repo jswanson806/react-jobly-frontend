@@ -1,6 +1,6 @@
 import React, { useContext, useEffect } from 'react';
 import { useHistory } from "react-router-dom";
-import './App.css';
+import './styles/App.css';
 import Routes from './Routes.js';
 import NavBar from './NavBar.js';
 import JoblyApi from './api.js';

@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import AppContext from "./helpers/AppContext.js";
-import './LoginForm.css';
+import './styles/LoginForm.css';
 
 /**
  * LogInForm Component

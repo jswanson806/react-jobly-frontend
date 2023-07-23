@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import JoblyApi from "./api.js";
 import JobCard from './JobCard.js';
-import './CompanyDetails.css';
+import './styles/CompanyDetails.css';
 import { UserContext } from "./helpers/UserContext.js";
 
 /**

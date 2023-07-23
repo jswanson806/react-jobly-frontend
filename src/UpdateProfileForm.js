@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { useHistory } from "react-router-dom";
 import AppContext from "./helpers/AppContext.js";
-import './UpdateProfileForm.css';
+import './styles/UpdateProfileForm.css';
 import { UserContext } from "./helpers/UserContext.js";
 
 /**

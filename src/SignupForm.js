@@ -1,7 +1,7 @@
 import React, { useState, useContext  } from "react";
 import { useHistory } from "react-router-dom";
 import AppContext from "./helpers/AppContext.js";
-import './SignupForm.css';
+import './styles/SignupForm.css';
 
 /**
  * SignupForm Component

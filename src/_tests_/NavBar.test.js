@@ -1,7 +1,7 @@
 import React from "react";
 import {render, screen, fireEvent, waitFor} from '@testing-library/react';
-import NavBar from './NavBar.js';
-import AppContext from "./helpers/AppContext.js";
+import NavBar from '../NavBar.js';
+import AppContext from "../helpers/AppContext.js";
 import { Router, MemoryRouter } from "react-router-dom";
 import {createMemoryHistory} from 'history';
 import '@testing-library/jest-dom';

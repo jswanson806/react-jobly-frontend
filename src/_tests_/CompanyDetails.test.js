@@ -1,10 +1,10 @@
 import React from "react";
-import CompanyDetails from "./CompanyDetails.js";
+import CompanyDetails from "../CompanyDetails.js";
 import { act, render, waitFor, getByTestId, screen} from '@testing-library/react';
 import { MemoryRouter} from 'react-router-dom';
 import '@testing-library/jest-dom';
-import JoblyApi from "./api.js";
-import { UserContext } from "./helpers/UserContext.js";
+import JoblyApi from "../api.js";
+import { UserContext } from "../helpers/UserContext.js";
 
 jest.mock('./api');
 

@@ -1,7 +1,7 @@
 import React from "react";
 import {act, render, screen, fireEvent} from '@testing-library/react';
-import SignInForm from './LogInForm.js';
-import AppContext from "./helpers/AppContext.js";
+import SignInForm from '../LogInForm.js';
+import AppContext from "../helpers/AppContext.js";
 import { MemoryRouter } from "react-router-dom";
 
 import '@testing-library/jest-dom';

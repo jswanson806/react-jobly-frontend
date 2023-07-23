@@ -1,6 +1,6 @@
 import React from 'react';
 import { act, screen, render, getByTestId} from '@testing-library/react';
-import CompanyCard from './CompanyCard.js';
+import CompanyCard from '../CompanyCard.js';
 import '@testing-library/jest-dom';
 
 

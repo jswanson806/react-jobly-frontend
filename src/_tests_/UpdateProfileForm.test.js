@@ -1,11 +1,11 @@
 import React from "react";
 import {act, render, screen, fireEvent} from '@testing-library/react';
-import UpdateProfileForm from './UpdateProfileForm.js';
-import AppContext from "./helpers/AppContext.js";
+import UpdateProfileForm from '../UpdateProfileForm.js';
+import AppContext from "../helpers/AppContext.js";
 import { Router, MemoryRouter } from "react-router-dom";
 import { createMemoryHistory } from 'history';
 import '@testing-library/jest-dom';
-import { UserContext } from "./helpers/UserContext.js";
+import { UserContext } from "../helpers/UserContext.js";
 
 
 const updateUserProfile = jest.fn();

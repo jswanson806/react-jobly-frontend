@@ -1,7 +1,7 @@
 import React from 'react';
 import { MemoryRouter} from 'react-router-dom';
 import { act, render, waitFor, screen, fireEvent} from '@testing-library/react';
-import CompanyList from './CompanyList.js';
+import CompanyList from '../CompanyList.js';
 import '@testing-library/jest-dom';
 
 

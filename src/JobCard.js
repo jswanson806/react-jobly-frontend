@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from "react";
 import JoblyApi from "./api.js";
-import './JobCard.css';
+import './styles/JobCard.css';
 import { UserContext } from "./helpers/UserContext.js";
 
 /**

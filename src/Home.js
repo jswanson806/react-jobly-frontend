@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import './Home.css';
+import './styles/Home.css';
 import { UserContext } from "./helpers/UserContext.js";
 
 /**

@@ -1,5 +1,5 @@
 import React from "react";
-import './CompanyCard.css';
+import './styles/CompanyCard.css';
 
 /**
  * CompanyCard Component

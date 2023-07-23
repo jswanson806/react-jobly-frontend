@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import JobCard from "./JobCard.js";
-import './JobList.css';
+import './styles/JobList.css';
 
 /**
  * JobsList Component

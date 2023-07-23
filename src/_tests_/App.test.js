@@ -1,9 +1,9 @@
 import React from 'react';
 import { act, render, screen, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import App from './App.js';
-import { UserContext } from './helpers/UserContext.js';
-import { TokenContext } from './helpers/TokenContext.js';
+import App from '../App.js';
+import { UserContext } from '../helpers/UserContext.js';
+import { TokenContext } from '../helpers/TokenContext.js';
 
 
 

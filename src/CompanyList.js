@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import CompanyCard from "./CompanyCard.js";
 import { Link } from "react-router-dom";
-import './CompanyList.css';
+import './styles/CompanyList.css';
 
 /**
  * CompanyList Component

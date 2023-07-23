@@ -1,13 +1,13 @@
 import React from 'react';
 import { render, act, screen, waitFor } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import Routes from './Routes.js'
-import { TokenContext } from './helpers/TokenContext.js';
-import JoblyApi from './api.js';
+import Routes from '../Routes.js'
+import { TokenContext } from '../helpers/TokenContext.js';
+import JoblyApi from '../api.js';
 import { MemoryRouter } from 'react-router-dom';
-import App from './App.js';
-import { UserContext } from './helpers/UserContext.js';
-import AppContext from './helpers/AppContext.js';
+import App from '../App.js';
+import { UserContext } from '../helpers/UserContext.js';
+import AppContext from '../helpers/AppContext.js';
 
 let token = "testToken";
 

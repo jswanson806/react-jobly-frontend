@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { Navbar, Nav, NavItem } from 'reactstrap';
 import AppContext from "./helpers/AppContext.js";
-import './NavBar.css';
+import './styles/NavBar.css';
 
 /**
  * NavBar Component

@@ -1,8 +1,8 @@
 import React from "react";
 import {render} from '@testing-library/react';
-import Home from "./Home.js";
+import Home from "../Home.js";
 import "@testing-library/jest-dom";
-import { UserContext } from "./helpers/UserContext.js";
+import { UserContext } from "../helpers/UserContext.js";
 
 
 let user = {

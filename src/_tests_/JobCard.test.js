@@ -1,8 +1,8 @@
 import React from "react";
 import {render, screen} from '@testing-library/react';
-import JobCard from "./JobCard.js";
+import JobCard from "../JobCard.js";
 import '@testing-library/jest-dom';
-import { UserContext } from "./helpers/UserContext.js";
+import { UserContext } from "../helpers/UserContext.js";
 
 
 const user = {
